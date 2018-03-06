@@ -1,0 +1,157 @@
+/* 
+    Document   : mycss
+    Created on : Apr 9, 2013, 10:53:31 PM
+    Author     : tripathi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    
+    background-color: #cccccc;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+fieldset{
+    width: 500px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-color: #006666;
+    border-left-color: #006666;
+    border-bottom-color: #006666;
+    border-top-color: #006666;
+     border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    border-top-width: 3px;
+}
+legend{
+    
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    color: #003333;
+    
+   
+}
+.button{
+    
+    background-color: #006666;
+    color: #ffffff;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-color: #003333;
+    border-left-color: #003333;
+    border-bottom-color: #003333;
+    border-top-color: #003333;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+}
+.bannertext{
+    
+    font-size: 36px;
+    color: #003333;
+    font-weight: bold;
+}
+.error{
+    
+    color: #ff0000;
+    font-style: italic;
+    font-size: 14px;
+}
+h2{
+    
+    color: #006666;
+}
+.newadd{
+    text-decoration: none;
+    font-size: 14px;
+    color: #009900;
+}
+.updt{
+    text-decoration: none;
+    font-size: 12px;
+    color: #cccc00;
+}
+.delt{
+    text-decoration: none;
+    font-size: 12px;
+    color: #ff0000;
+}
+.table{
+    width: 1050px;
+   
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    background-color: #ffffff;
+}
+.footer{
+    
+    font-size: 12px;
+    color: #999999;
+}
+
+.h_mnu_01{
+	width: 100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.h_mnu_01 ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+	background: #006666;
+	border-top-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 1px;
+	border-left-width: 0;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #003333;
+	border-right-color: #003333;
+	border-bottom-color: #003333;
+	border-left-color: #003333
+}
+
+.h_mnu_01 ul li{
+display: inline;
+}
+
+.h_mnu_01 ul li a{
+	float: left;
+	color: #FFFFFF;
+	padding: 5px 11px;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #003333;
+}
+
+.h_mnu_01 ul li a:visited{
+color: #FFFFFF;
+}
+
+.h_mnu_01 ul li a:hover, .h_mnu_01 ul li .selected{
+	color: #006666 !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #FFFFFF;
+}
